@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(2, 2, 32);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(2, 2, 32);
+}
+
+h3{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.sol{
+    color: #fc0254;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul li{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+ul li:hover{
+    color: cyan;
+}
+
+/* Right Side */
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.account{
+    color: #fc0254;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.account:hover{
+    color: cyan;
+}
+
+/* Intro Section */
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.left{
+    max-width: 550px;
+}
+
+.left h1{
+    font-size: 70px;
+    line-height: 1.1;
+}
+
+.pink{
+    color: #fc0254;
+}
+
+.left p{
+    margin-top: 20px;
+    color: #bdbdbd;
+    line-height: 1.8;
+}
+
+/* Buttons */
+
+.buttons{
+    margin-top: 30px;
+}
+
+.btn1,
+.btn2{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn1{
+    background-color: #fc0254;
+    margin-right: 15px;
+}
+
+.btn2{
+    background-color: #3b2f74;
+}
+
+/* Image */
+
+.right img{
+    width: 500px;
+    max-width: 100%;
+}
